@@ -52,7 +52,8 @@ Partial Class HomePage
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(622, 112)
         Me.TextBox1.TabIndex = 2
-        Me.TextBox1.Text = "Salutari!& Environment.NewLine & Bine ai venit pe platforma de programari."
+        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.TextBox1.UseSystemPasswordChar = True
         '
         'HomePage
         '
