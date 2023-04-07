@@ -7,4 +7,5 @@
     Private Sub HomePage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.TextBox1.AppendText("Salutari!" & Environment.NewLine & "Bine ai venit pe platforma de programari")
     End Sub
+
 End Class
