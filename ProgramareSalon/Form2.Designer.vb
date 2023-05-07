@@ -191,13 +191,12 @@ Partial Class Form2
         '
         'Label9
         '
-        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label9.ForeColor = System.Drawing.Color.LimeGreen
+        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label9.ForeColor = System.Drawing.Color.Red
         Me.Label9.Location = New System.Drawing.Point(46, 375)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(711, 25)
         Me.Label9.TabIndex = 0
-        Me.Label9.Text = "True"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Form2
