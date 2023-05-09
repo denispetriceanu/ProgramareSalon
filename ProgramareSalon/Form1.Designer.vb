@@ -29,7 +29,7 @@ Partial Class HomePage
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.DarkGoldenrod
+        Me.Button1.BackColor = System.Drawing.Color.SteelBlue
         Me.Button1.ForeColor = System.Drawing.Color.Linen
         Me.Button1.Location = New System.Drawing.Point(84, 268)
         Me.Button1.Name = "Button1"
@@ -40,8 +40,8 @@ Partial Class HomePage
         '
         'Button2
         '
-        Me.Button2.BackColor = System.Drawing.Color.DarkGoldenrod
-        Me.Button2.ForeColor = System.Drawing.Color.Linen
+        Me.Button2.BackColor = System.Drawing.Color.SteelBlue
+        Me.Button2.ForeColor = System.Drawing.Color.AliceBlue
         Me.Button2.Location = New System.Drawing.Point(482, 268)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(224, 44)
@@ -51,7 +51,8 @@ Partial Class HomePage
         '
         'TextBox1
         '
-        Me.TextBox1.BackColor = System.Drawing.Color.MistyRose
+        Me.TextBox1.BackColor = System.Drawing.Color.White
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.TextBox1.ForeColor = System.Drawing.SystemColors.GrayText
         Me.TextBox1.Location = New System.Drawing.Point(84, 120)
@@ -67,7 +68,7 @@ Partial Class HomePage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.MistyRose
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button2)
